@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="favGrad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <radialGradient id="favBg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#favBg)" />
+  <rect width="62" height="62" x="1" y="1" rx="15" stroke="url(#favGrad)" stroke-width="1.5" stroke-opacity="0.5" />
+
+  <path
+    d="M 32,10 L 52,21 L 52,43 L 32,54 L 12,43 L 12,21 Z"
+    stroke="url(#favGrad)"
+    stroke-width="2.5"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M 22,40 L 32,20 L 42,40"
+    stroke="#FFFFFF"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M 25,35 L 39,35"
+    stroke="#06B6D4"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+
+  <circle cx="32" cy="28" r="3" fill="#06B6D4" />
+  <circle cx="32" cy="28" r="1.5" fill="#FFFFFF" />
+</svg>

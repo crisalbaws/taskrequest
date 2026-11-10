@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" fill="none">
+  <defs>
+    <linearGradient id="pGrad192" x1="24" y1="24" x2="168" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <radialGradient id="bgGrad192" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="70%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+  </defs>
+
+  <rect width="192" height="192" rx="48" fill="url(#bgGrad192)" />
+  <rect width="190" height="190" x="1" y="1" rx="47" stroke="url(#pGrad192)" stroke-width="1.5" stroke-opacity="0.4" />
+
+  <!-- Hexagonal Tech Shield -->
+  <path
+    d="M 96,36 L 148,66 L 148,126 L 96,156 L 44,126 L 44,66 Z"
+    stroke="url(#pGrad192)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="#4F46E5"
+    fill-opacity="0.12"
+  />
+
+  <!-- Dynamic 'A' Chevron Apex -->
+  <path
+    d="M 68,116 L 96,60 L 124,116"
+    stroke="#FFFFFF"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Crossbar -->
+  <path
+    d="M 75,100 L 117,100"
+    stroke="url(#pGrad192)"
+    stroke-width="7"
+    stroke-linecap="round"
+  />
+
+  <!-- Glowing Core Node -->
+  <circle cx="96" cy="85" r="7" fill="#06B6D4" />
+  <circle cx="96" cy="85" r="3.5" fill="#FFFFFF" />
+</svg>
