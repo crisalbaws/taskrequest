@@ -1,5 +1,5 @@
-const CACHE_NAME = 'taskrequest-v1'
-const STATIC_ASSETS = ['/', '/manifest.json', '/favicon.svg', '/icons/icon-192.svg', '/icons/icon-512.svg']
+const CACHE_NAME = 'taskrequest-v2'
+const STATIC_ASSETS = ['./', './manifest.json', './favicon.svg', './icons/icon-192.svg', './icons/icon-512.svg']
 
 function cleanString(str, maxLen = 140) {
   if (typeof str !== 'string') return ''
@@ -51,8 +51,8 @@ self.addEventListener('push', (event) => {
   event.waitUntil(
     self.registration.showNotification(safeTitle, {
       body: safeBody,
-      icon: '/icons/icon-192.svg',
-      badge: '/icons/icon-192.svg',
+      icon: './icons/icon-192.svg',
+      badge: './icons/icon-192.svg',
       vibrate: [100, 50, 100],
       tag: 'taskrequest-push',
     })
